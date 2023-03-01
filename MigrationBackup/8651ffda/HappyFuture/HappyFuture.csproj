@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A811857-3CBB-4AA7-B2E2-1613D8888EC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HappyFuture</RootNamespace>
+    <AssemblyName>HappyFuture</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>happyFuture.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.36.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.36.1\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.109.2\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.109.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.109.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DialogControl\FutureDlg\TradeStrategySimulView.cs" />
+    <Compile Include="DialogControl\FutureDlg\FutureDlgInfo.cs" />
+    <Compile Include="DialogControl\FutureDlg\FuturePoolView.cs" />
+    <Compile Include="DialogControl\FutureDlg\OrderListView.cs" />
+    <Compile Include="DialogControl\FutureDlg\OrderRecoderView.cs" />
+    <Compile Include="DialogControl\FutureDlg\TradeListView.cs" />
+    <Compile Include="DialogControl\FutureDlg\TradeRecoderView.cs" />
+    <Compile Include="DialogControl\FutureInfoDlg\FutureBackTestViewer.cs" />
+    <Compile Include="DialogControl\FutureInfoDlg\FutureCalcViewer.cs" />
+    <Compile Include="DialogControl\FutureInfoDlg\FuturePriceChart.cs" />
+    <Compile Include="Dialog\FutureDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FutureDlg.Designer.cs">
+      <DependentUpon>FutureDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FutureInfoDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FutureInfoDlg.Designer.cs">
+      <DependentUpon>FutureInfoDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\MainDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\MainDlg.Designer.cs">
+      <DependentUpon>MainDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FutureBot\FundManagement\BackTestRef\BackTestRefFutureFundManagement.cs" />
+    <Compile Include="FutureBot\FundManagement\BackTestRef\NonGoalFutureFundManagement.cs" />
+    <Compile Include="FutureBot\FundManagement\BackTestRef\ReverseTrandFutureFundManagement.cs" />
+    <Compile Include="FutureBot\FundManagement\BackTestRef\SimpleFutureFundManagement.cs" />
+    <Compile Include="FutureBot\FundManagement\BandTrand\BandFutureFundManagement.cs" />
+    <Compile Include="FutureBot\FundManagement\TargetGoal\FutureGoalPrice.cs" />
+    <Compile Include="FutureBot\FundManagement\FutureFundManagement.cs" />
+    <Compile Include="FutureBot\FundManagement\BackTestRef\BaseFutureFundManagement.cs" />
+    <Compile Include="FutureBot\FutureBackTestRecoder.cs" />
+    <Compile Include="FutureBot\FutureBot.cs" />
+    <Compile Include="FutureBot\FutureData.cs" />
+    <Compile Include="FutureBot\FutureDB.cs" />
+    <Compile Include="FutureBot\FutureEngine.cs" />
+    <Compile Include="FutureBot\FundManagement\FutureFundFinder.cs" />
+    <Compile Include="FutureBot\FutureState.cs" />
+    <Compile Include="FutureBot\FutureStatement.cs" />
+    <Compile Include="TradeStrategyFinder\TestBot.cs" />
+    <Compile Include="TradeStrategyFinder\TradeStrategyForOneItem.cs" />
+    <Compile Include="TradeStrategyFinder\TradeStrategyForSimul.cs" />
+    <Compile Include="TradeStrategyFinder\TradeStrategyTestRecoder.cs" />
+    <Compile Include="TradeStrategyFinder\TradeStrategyEngine.cs" />
+    <Compile Include="Officer\LogForGoogleSheet.cs" />
+    <Compile Include="Officer\MailOffice.cs" />
+    <Compile Include="Officer\FutureTelegramBot.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TradeStrategyFinder\TradeStrategyTestResult.cs" />
+    <EmbeddedResource Include="Dialog\FutureDlg.resx">
+      <DependentUpon>FutureDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FutureInfoDlg.resx">
+      <DependentUpon>FutureInfoDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\MainDlg.resx">
+      <DependentUpon>MainDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KiwoomEngine\KiwoomEngine.csproj">
+      <Project>{56ecea93-e4f4-4fd8-9b99-656ac34dee78}</Project>
+      <Name>KiwoomEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockLibrary\StockLibrary.csproj">
+      <Project>{D3CFC13A-E65C-431A-929C-0D22E15F6442}</Project>
+      <Name>StockLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilLib\UtilLibrary.csproj">
+      <Project>{34e42552-d32b-4e96-ae89-82c40786e608}</Project>
+      <Name>UtilLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="believe.jpg" />
+    <Content Include="believe_big.JPG" />
+    <Content Include="FodyWeavers.xml" />
+    <Content Include="happyFuture.ico" />
+    <Content Include="logo.JPG" />
+    <None Include="Resources\DarkArchon.gif" />
+    <None Include="Resources\Archon.gif" />
+    <None Include="Resources\battlecuruser.gif" />
+    <None Include="Resources\DropShip.gif" />
+    <None Include="Resources\Valkiry.gif" />
+    <None Include="Resources\carrier.gif" />
+    <None Include="Resources\highTempler.gif" />
+    <None Include="Resources\Kerrigan.gif" />
+    <None Include="Resources\Medic.gif" />
+    <None Include="Resources\Overmind.gif" />
+    <Content Include="watching.jpg" />
+    <None Include="zeratul.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxKFOpenAPILib">
+      <Guid>{1F8A15ED-A979-488F-9694-1EDA98188FFC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="KFOpenAPILib">
+      <Guid>{1F8A15ED-A979-488F-9694-1EDA98188FFC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>copy $(ProjectDir)config.xlsx $(TargetDir)
+</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

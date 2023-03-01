@@ -1,0 +1,21 @@
+diff a/HappyTool/DialogControl/StockChartDialog/StockCalcViewer.cs b/HappyTool/DialogControl/StockChartDialog/StockCalcViewer.cs	(rejected hunks)
+@@ -42,19 +42,6 @@
+             }
+ 
+             foreach (string name in Enum.GetNames(typeof(EVALUATION_DATA))) {
+-                if (name.CompareTo("SMA_START") == 0) {
+-                    continue;
+-                }
+-                if (name.CompareTo("EMA_START") == 0) {
+-                    continue;
+-                }
+-                if (name.CompareTo("AVG_END") == 0) {
+-                    continue;
+-                }
+-                if (name.CompareTo("MAX") == 0) {
+-                    break;
+-                }
+-
+                 dataGridView_.Columns[i].DefaultCellStyle.Format = "##.##";
+                 dataGridView_.Columns[i].Name = name;
+                 ++i;

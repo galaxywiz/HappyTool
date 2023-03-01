@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HappyFuture.Dialog.FutureDataInfoDlg" Collapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACiASCAABAAoAYCJAAICBAAgECAkAIAAAJkQAAQ=</HashCode>
+      <FileName>Dialog\FutureDataInfoDlg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureDlg" Collapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aONyhEASGikwZHMCEDGAgEOaSZBCxSCqH6OV0wHoGBg=</HashCode>
+      <FileName>Dialog\FutureDlg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.HappyFutureDlg" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYAQgAAACCAFJggAAKAEABCAEABAAADQCAJQCAgAAA=</HashCode>
+      <FileName>Dialog\MainDlg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureTradeRecord" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureBackTestRecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureBackTestRecoder" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAEAAAAIAAAAAAAAAEAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>FutureBot\FutureBackTestRecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureTradeModuleFilter" Collapsed="true">
+    <Position X="51.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureBackTestRecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.ControlGet" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureBot" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEtYIHAgFYUlGCgwCAADQCAKKBACABKCQ4BDAIEEwiQ=</HashCode>
+      <FileName>FutureBot\FutureBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.MarginMoney" Collapsed="true">
+    <Position X="51.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>FutureBot\FutureData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureData" Collapsed="true">
+    <Position X="51.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Y4ACBiAEEAQEEE5IRCgYAQ1AiABIYBQAghAIRSAAEDA=</HashCode>
+      <FileName>FutureBot\FutureData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureItem" Collapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEABAAACAAEwAACIAAAAAEEAAAAIACQAAAAAAAQI=</HashCode>
+      <FileName>FutureBot\FutureEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureEngine" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACIABAgAAQAGwkCACgIABAQABgAQAAAQABMAIACBA=</HashCode>
+      <FileName>FutureBot\FutureEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureState" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.ListUpFuturePhase" Collapsed="true">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.SelectedPriceLoadFuturePhase" Collapsed="true">
+    <Position X="3" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.ReadyPrepareFuturePhase" Collapsed="true">
+    <Position X="5.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.WatchingFuturePhase" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAAAACAAAAAABAAgIIAAIAABAQCAAACAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureBotState" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgEAAEAAIAAAAAAAAAAAAIAAAIAAA=</HashCode>
+      <FileName>FutureBot\FutureState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.StockStatement" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAQAAAAAAAAAAAAAAAAgAAAAAAAAAAACAAAEAAAAEA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.OrderFutureStatement" Collapsed="true">
+    <Position X="24.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAACAAAACAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.AccountFutureStatement" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.AccountMoneyStatement" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureInfoLoadStatement" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureMarginMoneyStatement" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureBuyAbleInfoStatement" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAIAAAEAAAAAAAEAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.OutstandingOrderFutureStatement" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TodayTradeRecodeStatement" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeHistoryStatement" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAEAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FutureInfoStatement" Collapsed="true">
+    <Position X="33.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABACEBAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.HistoryMin1Future" Collapsed="true">
+    <Position X="36" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.HistoryMin2Future" Collapsed="true">
+    <Position X="33.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.HistoryMin3Future" Collapsed="true">
+    <Position X="36" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.OneMinFuture" Collapsed="true">
+    <Position X="38.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.HistoryTheDaysFuture" Collapsed="true">
+    <Position X="29.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.HistoryTheWeeksFuture" Collapsed="true">
+    <Position X="31.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradingStatement" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAAACQAAAAAAAACiAMAAAAAAAAAQAEEACAAA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.SellFuture" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.BuyFuture" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.SellCancleFuture" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.BuyCancleFuture" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>FutureBot\FutureStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Program" Collapsed="true">
+    <Position X="44.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureBackTestViewer" Collapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAwKgACAAAAgAAEAAAAAAEAEgQAAAAAABBJAEIAA=</HashCode>
+      <FileName>DialogControl\FutureDataInfoDlg\FutureBackTestViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureCalcViewer" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAQAAAQCgAAAAAAAACAAAgAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DialogControl\FutureDataInfoDlg\FutureCalcViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FuturePriceChart" Collapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwkIASAQAlAAAgBAKoAEAAAAQEgAgAgAAAAAEAAEAA=</HashCode>
+      <FileName>DialogControl\FutureDataInfoDlg\FuturePriceChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.FutureDlgInfo" Collapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABOZAIgCCpAAAAgAACgAAgIAAAABABAAAYAgIAAAAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\FutureDlgInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.FuturePoolViewer" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAQAAAAAAAAAAAAAAAAAAQAAAAEAAAAAEAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\FuturePoolView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.OrderListView" Collapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAgAAECAAAAAEAAABAAAAAAAAIACAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\OrderListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.OrderRecoderView" Collapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAgAAAAAAhAAAAAAAAAAABAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\OrderRecoderView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.TradeListView" Collapsed="true">
+    <Position X="42.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKBAAAAAAAAAAgAAAAAAAAAAAIAAAAQAAAIAIAEAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\TradeListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.TodayTradeRecoderView" Collapsed="true">
+    <Position X="51.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\TradeRecoderView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.TradeHistoryView" Collapsed="true">
+    <Position X="40.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACgACAAAAgBgAAAAAAAQAEAQAAAAAAgAACEAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\TradeRecoderView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DialogControl.FutureDlg.BlanceSimulView" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAgACAAAAgAAAgAAAAAQCkAAAAAAAAAAACEAAA=</HashCode>
+      <FileName>DialogControl\FutureDlg\TradeStrategySimulView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FutureSqliteDB" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAEAAA=</HashCode>
+      <FileName>FutureBot\DB\FutureDBHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FutureTradeModulDB" Collapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\DB\FutureDBHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FutureDBHandler" Collapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEQFAABgAAAAAAAAAFAAAiAACCAAAWAgCFARAAcAA=</HashCode>
+      <FileName>FutureBot\DB\FutureDBHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FutureFundModuleDB" Collapsed="true">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAQAAAAAAAABBBAAAAAAEAAA=</HashCode>
+      <FileName>FutureBot\DB\FutureFundModuleDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FuturePriceDB" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAAAACAEAAAQAAAQAAAAAAACBBBBAAAAIEAAA=</HashCode>
+      <FileName>FutureBot\DB\FuturePriceDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FutureTradeRecodeDB" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAABBBAAAAAAEAAA=</HashCode>
+      <FileName>FutureBot\DB\FutureTradeTecodeDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.DB.FutureFundPoolDB" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIFAAAAACQAAAAAAAAFBBAAAAAAEAAA=</HashCode>
+      <FileName>FutureBot\DB\StrategyPoolDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.FutureFundManagement" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAABIigDBAKgkAAAAAgAACAAIAAAAAJAAABA=</HashCode>
+      <FileName>FutureBot\FundManage\FutureFundManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.FutureFundManagementList" Collapsed="true">
+    <Position X="51.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAABAAAAAAAACAAAAAAAABAAAAAAABAA=</HashCode>
+      <FileName>FutureBot\FundManage\FutureFundManagementList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.ProfitLostList" Collapsed="true">
+    <Position X="42.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.Profit_Default" Collapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.Profit_BaseTime" Collapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.Profit_DetectPlugePrices" Collapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.LostCut_BaseTime" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.Profit_OffenseTrend" Collapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.Profit_ProtectionTrend" Collapsed="true">
+    <Position X="51.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.LostCut_Trend" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.LostCut_LongTimeHaved" Collapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.FundManage.Profit_PullBack" Collapsed="true">
+    <Position X="40.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FutureBot\FundManage\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.NetClient.FutureMonitorClient" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAEAAAgAAAAAAIAAAAgAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>FutureBot\NetClient\FutureMonitorClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Officer.FutureTelegramBot" Collapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAACAAAAQAAIAAAAI=</HashCode>
+      <FileName>Officer\FutureTelegramBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Officer.LogForGoogleSheet" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAAEAABAAAgAAAAAAAAAAAAAAAAAAAAAJAA=</HashCode>
+      <FileName>Officer\LogForGoogleSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Officer.TradeLogForGoogleSheet" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Officer\LogForGoogleSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Officer.TestBotLogForGoogleSheet" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Officer\LogForGoogleSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Officer.MailOffice" Collapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAMAAAAAgAgAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Officer\MailOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Properties.Resources" Collapsed="true">
+    <Position X="46" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAQIYAAABAAABEAAAAQEAAAAQAAAAAIGAAMA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.Properties.Settings" Collapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeStrategyFinder.TestBot" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAQACAEAAQkCIAwAggDQAAJSABCABKIQaAKAKAAACA=</HashCode>
+      <FileName>TradeStrategyFinder\TestBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeStrategyFinder.WinTradeModule" Collapsed="true">
+    <Position X="49.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAABAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TradeStrategyFinder\TradeStrategyEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeStrategyFinder.TradeStrategyEngine" Collapsed="true">
+    <Position X="44.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACkCAqiCCAACAglIgFBRAUQw0sBQBACFQEJBAIABMCg=</HashCode>
+      <FileName>TradeStrategyFinder\TradeStrategyEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeStrategyFinder.TestRecode" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAACAAAAgJAAAAAAYIBBIEhAABAAABgAAABAAAAA=</HashCode>
+      <FileName>TradeStrategyFinder\TradeStrategyTestRecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeStrategyFinder.TradeStrategyTestRecoder" Collapsed="true">
+    <Position X="46" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAMAAQAEIAgYABAYEiRRAAgABLABACAAEAIQAAEAQA=</HashCode>
+      <FileName>TradeStrategyFinder\TradeStrategyTestRecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyFuture.TradeStrategyFinder.TradeStrategyTestResult" Collapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAIBAACAIIABAgAAgAAABAgYAABIAEAAAAA=</HashCode>
+      <FileName>TradeStrategyFinder\TradeStrategyTestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StockLibrary.TradeModuleFilter" Collapsed="true">
+    <Position X="60.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackTest\FindBestTradeModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.FindBestTradeModule" Collapsed="true">
+    <Position X="60.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAAQAggAJAAAAAAABAIAAACAAAEAAAU=</HashCode>
+      <FileName>BackTest\FindBestTradeModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.SiumlateBackTest" Collapsed="true">
+    <Position X="59" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAAAAAAAAAAAAgAAAAAAEBAAAAAAAAAAAEIA=</HashCode>
+      <FileName>BackTest\SiumlateBackTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.TradeRecord" Collapsed="true">
+    <Position X="62.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKCAAAAIAAAAAAAASAQgABAABA0AAAQBgAQAIAAggA=</HashCode>
+      <FileName>BackTest\StockBackTestRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BackTestRecoder" Collapsed="true">
+    <Position X="6.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAwIgAAAgAQAQEgYCABABBEEAACQAAAEAAAACAA=</HashCode>
+      <FileName>BackTest\StockBackTestRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StockBackTestRecoder" Collapsed="true">
+    <Position X="5.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>BackTest\StockBackTestRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.SimulateBackTestRecoder" Collapsed="true">
+    <Position X="7.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAEAAAAA=</HashCode>
+      <FileName>BackTest\StockBackTestRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.Bot" Collapsed="true">
+    <Position X="59" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LUh4yiAAQEIlCyB4wCRDxApKCwgCBHIKQVC0QogAhaA=</HashCode>
+      <FileName>Bot\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.Phase" Collapsed="true">
+    <Position X="57.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAIAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bot\BotState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BotState" Collapsed="true">
+    <Position X="60.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAECAIAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Bot\BotState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StatisticsCount" Collapsed="true">
+    <Position X="60.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAAAAAAAAABAAAAAAIABAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Bot\StockData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StockData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MQBCNgQtYUI2JE5AJqQ5IbxI9xFdCLxBC4aoQbDZpLA=</HashCode>
+      <FileName>Bot\StockData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockLibrary.Calculater" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.AvgCalculater" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BollingerCalculater" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAIAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.EnvelopeCalculater" Collapsed="true">
+    <Position X="29" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAABAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.PriceChannelCalculater" Collapsed="true">
+    <Position X="33.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.MacdCalculater" Collapsed="true">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.RSI14Calculater" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StochasticCalculater" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAEAEAAAAAgIACAAAQAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ADXCalculater" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.WilliamsCalculater" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.CCICalculater" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ATRCalculater" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.UltimateCalculater" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ROCCalculater" Collapsed="true">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ParabolicSAR" Collapsed="true">
+    <Position X="26.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BullBearCalculater" Collapsed="true">
+    <Position X="31.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAIAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CalculateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.CandleData" Collapsed="true">
+    <Position X="62.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQoAAAkQAQAAAEAAQAcAAhBAACEABAgAABQABQ=</HashCode>
+      <FileName>Calculate\CandleData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.Evaluation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAEAIAEAAAAAEAAAAgAAgYAAAJgEIABASCAJQ=</HashCode>
+      <FileName>Calculate\Evaluation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockLibrary.CodeModule" Collapsed="true">
+    <Position X="64.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>CodeModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BestTradeModuleDB" Collapsed="true">
+    <Position X="57.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAABBBAAAAAAEAAA=</HashCode>
+      <FileName>DB\BotDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.PublicVar" Collapsed="true">
+    <Position X="10.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAwkzYBACCXIBxBOUKB0UANDhAhzmBGQihkxAgwjCM=</HashCode>
+      <FileName>PublicVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.PublicFutureVar" Collapsed="true">
+    <Position X="10.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MBQAAAAAAAAAQAgAAAAAAAAAQRSAEAAAiAIFAAJAAAA=</HashCode>
+      <FileName>PublicVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.FundFilter" Collapsed="true">
+    <Position X="12.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.SupportAndResistanceFilter" Collapsed="true">
+    <Position X="1.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.CandleFilter" Collapsed="true">
+    <Position X="6" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.CandleVolumeFilter" Collapsed="true">
+    <Position X="10.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.SmaBollengerFundFilter" Collapsed="true">
+    <Position X="14" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAABAAAAACAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.EmaBollengerFundFilter" Collapsed="true">
+    <Position X="12.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.WmaBollengerFundFilter" Collapsed="true">
+    <Position X="15" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.SmaSlopeFundFilter" Collapsed="true">
+    <Position X="18.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAQAAAAAAASAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.EmaSlopeFundFilter" Collapsed="true">
+    <Position X="17.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.WmaSlopeFundFilter" Collapsed="true">
+    <Position X="19.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.SmaTrendFundFilter" Collapsed="true">
+    <Position X="23" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAASAQAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.EmaTrendFundFilter" Collapsed="true">
+    <Position X="21.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.WmaTrendFundFilter" Collapsed="true">
+    <Position X="24" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.HitTheBullsEyeFilter" Collapsed="true">
+    <Position X="3.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.RSIFilter" Collapsed="true">
+    <Position X="8.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAACAgAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\Filter\FundFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyModuleList" Collapsed="true">
+    <Position X="59" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAgIAQAAAAEAQAAAAAGAAEQBQAoAABAABBA=</HashCode>
+      <FileName>StrategyForTrade\StrategyModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.TradeStrategyList" Collapsed="true">
+    <Position X="64.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.TradeStrategy" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACIABBAAAAAAAAAAAAAAAABAAAAQAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.MADoubleTradeStrategy" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.EMATradeStrategy" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BollingerBandTradeStrategy" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BollingerBandCenterTradeStrategy" Collapsed="true">
+    <Position X="32.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.RSITradeStrategy" Collapsed="true">
+    <Position X="36.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.RSI2TradeStrategy" Collapsed="true">
+    <Position X="41.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.RSICenterTradeStrategy" Collapsed="true">
+    <Position X="45.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ADX_DITradeStrategy" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ADX_DITradeStrategy2" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ADX_CenterTradeStrategy" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.CCITradeStrategy" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StochastictTradeStrategy" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StochastictRSITradeStrategy" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.WilliamsTradeStrategy" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ATRTradeStrategy" Collapsed="true">
+    <Position X="30" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.UltimateTradeStrategy" Collapsed="true">
+    <Position X="34.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.CandleTradeStrategy" Collapsed="true">
+    <Position X="39" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.BullBearTradeStrategy" Collapsed="true">
+    <Position X="43.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.ParabolicSARTradeStrategy" Collapsed="true">
+    <Position X="48" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.TwentyEightStrategyTradeStrategy" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.HitTheBullsEyeTradeStrategy" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\TradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.DB.BotSqliteDB" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>DB\StockDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.DB.StockDataSqliteDB" Collapsed="true">
+    <Position X="1.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAEAAA=</HashCode>
+      <FileName>DB\StockDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.DB.TradeModuleDB" Collapsed="true">
+    <Position X="0.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAQAAAAAAAABBBAAAAAAEAAA=</HashCode>
+      <FileName>DB\TradeModuleDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.DB.TradeModuleHistoryDB" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAQAAAAAAACBBBAAAAAAEACI=</HashCode>
+      <FileName>DB\TradeModuleHistoryDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.DB.WinRateDB" Collapsed="true">
+    <Position X="2.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAABBBAAAAAAEAAA=</HashCode>
+      <FileName>DB\WinRateDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.BackTestECStrategy" Collapsed="true">
+    <Position X="25.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACABBAAAAAAAAAAAAAAAAAAAkUAAAAAAAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\BackTestECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.EntryAndClearingStrategyList" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\EntryAndClearStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.EntryAndClearingStrategy" Collapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEgAADABBAIAJAAEEBAAEIAEAEBAkGAAAIAAgQJIE=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\EntryAndClearStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.HitTheBullsEyeECStrategy" Collapsed="true">
+    <Position X="38.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACABBAAAAAAAAQAAEAAAAAAAEEgAAAAAAABEA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\HitTheBullsEyeECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.AI_ECStrategy" Collapsed="true">
+    <Position X="45.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAACAABAAAAgAAEAAAAIAAAGAAAQAAgAAgAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\머신러닝 전략\AI_ECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.BollingerECStrategy" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABCABBAAAAAAAUAAAEIAAAEAAEUAAAAAAAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\볼린져 전략\BollingerECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.BollingerTouchECStrategy" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\볼린져 전략\BollingerTouchECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgABAAIAABIA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con02" Collapsed="true">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con01" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgAAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con03" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgAAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con03.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con18" Collapsed="true">
+    <Position X="29.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con04-1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con17" Collapsed="true">
+    <Position X="32" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con04-1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con16" Collapsed="true">
+    <Position X="34.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con04-1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con15" Collapsed="true">
+    <Position X="32" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgAAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con04-1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con04" Collapsed="true">
+    <Position X="41" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgAAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con04.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con05" Collapsed="true">
+    <Position X="47.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgAAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con05.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con12" Collapsed="true">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con11" Collapsed="true">
+    <Position X="14" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con10" Collapsed="true">
+    <Position X="16.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con09" Collapsed="true">
+    <Position X="18.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con08" Collapsed="true">
+    <Position X="20.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con07" Collapsed="true">
+    <Position X="23" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con06" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgAAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con06.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con14" Collapsed="true">
+    <Position X="27.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con13.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.MaECStrategy_Con13" Collapsed="true">
+    <Position X="27.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAACABBAAAAAAAEAAAAIAEAEAAEUgIAAAIAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\이평선 전략\MaECStrategy_Con13.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.PriceChanelECStrategy" Collapsed="true">
+    <Position X="36.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACABBAAAAAAAAAAAIAAAAAAAEUAAEAAAAABAA=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\채널 돌파 전략\PriceChanelECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.EntryAndClears.LarryRECStrategy" Collapsed="true">
+    <Position X="43.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACABBAAAAAIQAAACAAAEAAAAkUAgAAIAAABAQ=</HashCode>
+      <FileName>StrategyForFundManagement\EntryAndClears\추세돌파 전략\LarryRECStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.FundManagement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIhAABAggQBACAAAAEABtAEBAgKIAAAgBAAIBA=</HashCode>
+      <FileName>StrategyForFundManagement\FundManagement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.ProfitLost" Collapsed="true">
+    <Position X="9" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.getProfitLost" Collapsed="true">
+    <Position X="64.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.Profit_ExpectMax" Collapsed="true">
+    <Position X="1.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.LostCut_ExpectMin" Collapsed="true">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.Profit_MinStandardDeviation" Collapsed="true">
+    <Position X="5.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.LostCut_MinStandardDeviation" Collapsed="true">
+    <Position X="8" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.Profit_AvgStandardDeviation" Collapsed="true">
+    <Position X="10.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.LostCut_AvgStandardDeviation" Collapsed="true">
+    <Position X="12.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.Profit_MaxStandardDeviation" Collapsed="true">
+    <Position X="14.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForFundManagement.TargetGoal.LostCut_MaxStandardDeviation" Collapsed="true">
+    <Position X="17" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\ProfitLost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.BandTradeStrategy" Collapsed="true">
+    <Position X="52.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\BandTradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.EnvelopeTradeStrategy" Collapsed="true">
+    <Position X="50.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\BandTradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.DonchianChannelTradeStrategy" Collapsed="true">
+    <Position X="52.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\BandTradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.ReverseDonchianChannelTradeStrategy" Collapsed="true">
+    <Position X="52.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\BandTradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.BollingerTradeStrategy" Collapsed="true">
+    <Position X="54.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEABAAAAAAAABEgAAQAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategyForTrade\BandTradeStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.StockTradeModuleList" Collapsed="true">
+    <Position X="57.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAEQAAAAEAAA=</HashCode>
+      <FileName>StrategyForTrade\StockTradeModuleHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockLibrary.StrategyForTrade.StockTradeModuleHistory" Collapsed="true">
+    <Position X="64.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAIEAQAAAAAAAQAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>StrategyForTrade\StockTradeModuleHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StockLibrary.TradeStrategyStruct" Collapsed="true">
+    <Position X="59" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAA=</HashCode>
+      <FileName>Bot\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="StockLibrary.StrategyModuleRecode" Collapsed="true">
+    <Position X="57.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAQAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Bot\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="StockLibrary.FINDER_MODE" Collapsed="true">
+    <Position X="57.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackTest\FindBestTradeModule.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.REF_PRICE_TYPE" Collapsed="true">
+    <Position X="60.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Bot\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.STOCKDATA_VAL" Collapsed="true">
+    <Position X="64.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bot\StockData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.TRADING_STATUS" Collapsed="true">
+    <Position X="57.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Bot\StockData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.AVG_SAMPLEING" Collapsed="true">
+    <Position X="57.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAACAAgAAAAIEAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Calculate\CandleData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.ENVELOPE_LINE" Collapsed="true">
+    <Position X="60.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\CandleData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.EVALUATION_DATA" Collapsed="true">
+    <Position X="62.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAQABAAQAcoCHqSYAZAAIkwAGFADAAMgAgBABlAIAYA=</HashCode>
+      <FileName>Calculate\CandleData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.CandleType" Collapsed="true">
+    <Position X="59" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAAAAGEAAAAAAAAAAAAAAIAIAAAAAAI=</HashCode>
+      <FileName>Calculate\CandleData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.EVALUATION_ITEM" Collapsed="true">
+    <Position X="64.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oBAgBBAAAAgAEoCwMQFIBEAAAAACCAIAAgBAAAAIAQA=</HashCode>
+      <FileName>Calculate\Evaluation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.STOCK_EVALUATION" Collapsed="true">
+    <Position X="62.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculate\Evaluation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StockLibrary.StrategyForFundManagement.PAY_OFF_CODE" Collapsed="true">
+    <Position X="59" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAA0CAEUIgAChAAEAAlEAAAAAAAAgAYCBAAIgAAAA=</HashCode>
+      <FileName>StrategyForFundManagement\TargetGoal\CheckGoalPrice.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="StockLibrary.StockDataEach" Collapsed="true">
+    <Position X="57.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bot\StockData.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

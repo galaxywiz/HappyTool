@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3CFC13A-E65C-431A-929C-0D22E15F6442}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StockLibrary</RootNamespace>
+    <AssemblyName>StockLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamic, Version=1.2.3.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicLanguageRuntime.1.2.3\lib\net45\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting, Version=1.2.3.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicLanguageRuntime.1.2.3\lib\net45\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Metadata, Version=1.2.3.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicLanguageRuntime.1.2.3\lib\net45\Microsoft.Scripting.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.7.1\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=1.4.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.Metadata.1.8.1\lib\net461\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TA-Lib-Core, Version=1.0.4998.21369, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TA-Lib.0.5.0.3\lib\TA-Lib-Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackTest\FindBestTradeModule.cs" />
+    <Compile Include="BackTest\SiumlateBackTest.cs" />
+    <Compile Include="BackTest\StockBackTestRecord.cs" />
+    <Compile Include="BackTest\TradeStrategyTestRecoder.cs" />
+    <Compile Include="BackTest\TradeStrategyTestResult.cs" />
+    <Compile Include="CodeModule.cs" />
+    <Compile Include="DB\TradeModuleDB.cs" />
+    <Compile Include="DB\TradeModuleHistoryDB.cs" />
+    <Compile Include="DB\WinRateDB.cs" />
+    <Compile Include="Strategy\AssetBettor\AssetBettor.cs" />
+    <Compile Include="Strategy\Module\머신러닝 전략\ML_StrategyModule.cs" />
+    <Compile Include="Strategy\Module\BackTestECStrategy.cs" />
+    <Compile Include="Strategy\Module\볼린져 전략\BollingerTouchECStrategy.cs" />
+    <Compile Include="Strategy\Module\이평선 전략\MACDStrategyModule.cs" />
+    <Compile Include="Strategy\Module\추세돌파 전략\LarryRStrategyModule.cs" />
+    <Compile Include="Strategy\Module\채널 돌파 전략\PriceChanelStrategyModule.cs" />
+    <Compile Include="Strategy\Module\이평선 전략\GoldenCrossStrategyModule.cs" />
+    <Compile Include="Strategy\Trade\BollengerTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\CandleUpTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\MACDTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\PriceChanelTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\_TradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\LarryRTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\MaGoldCrossTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\MaOverTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\MaSlopeTradeStrategy.cs" />
+    <Compile Include="Strategy\Trade\MaTrendTradeStrategy.cs" />
+    <Compile Include="Strategy\ProfitSafer\ProfitSafer.cs" />
+    <Compile Include="Strategy\ProfitSafer\TargetGoal\PAY_OFF_CODE.cs" />
+    <Compile Include="Strategy\StrategyManagement.cs" />
+    <Compile Include="DB\BotDB.cs" />
+    <Compile Include="Bot\BotState.cs" />
+    <Compile Include="DB\StockDB.cs" />
+    <Compile Include="Calculate\CalculateData.cs" />
+    <Compile Include="Calculate\CandleData.cs" />
+    <Compile Include="Calculate\Evaluation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicVar.cs" />
+    <Compile Include="Bot\Bot.cs" />
+    <Compile Include="Bot\StockData.cs" />
+    <Compile Include="Strategy\ProfitSafer\TargetGoal\ProfitLost.cs" />
+    <Compile Include="FindBestStrategy\BandTradeStrategy.cs" />
+    <Compile Include="Strategy\Module\_StrategyModule.cs" />
+    <Compile Include="Strategy\Module\볼린져 전략\BollingerECStrategy.cs" />
+    <Compile Include="Strategy\Module\HitTheBullsEyeECStrategy.cs" />
+    <Compile Include="FindBestStrategy\StockTradeModuleHistory.cs" />
+    <Compile Include="FindBestStrategy\StrategyModule.cs" />
+    <Compile Include="FindBestStrategy\TechTradeModule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetLib\NetLibrary.csproj">
+      <Project>{6b6e1fba-091b-4cfd-a4cc-76090e8e0e47}</Project>
+      <Name>NetLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilLib\UtilLibrary.csproj">
+      <Project>{34e42552-d32b-4e96-ae89-82c40786e608}</Project>
+      <Name>UtilLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -34,5 +34,8 @@
 *.cache
 *.db
 *.xml
+*.txt
+*.vspx
+*.diagsession
 *.config
 /.vs/HappyTool/v16/Server/sqlite3
